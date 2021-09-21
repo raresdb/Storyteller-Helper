@@ -1,3 +1,4 @@
+//©Intellectual property of Butilca Rares-Dumitru
 #include<string.h>
 #define ALIVE 1
 #define DEAD 0
