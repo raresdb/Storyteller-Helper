@@ -1,0 +1,23 @@
+							WHAT'S MAFIA AND WHAT IS THIS PROGRAM?
+	Mafia is a party game that involves socialisation, psychology and strategy. A computer variant of the
+game has been implemented for browsers, bearing the name Town of Salem. If you don't already know how to
+play the game, I suggest you browse on the internet about it.
+	This program is a tool for the storyteller player in the live version of mafia. The storyteller won't
+have to worry anymore about reasoning the effects of the other players' choices while using this tool.
+The program expects input from the user(the storyteller), and prints the conclusions after calculating
+the results of every player's choices.
+
+							HOW DOES THE TOOL WORK?
+	When the user starts a game, they will be prompted to the setup phase. This phase occurs only once,
+being the phase where each player is being given their role. This can be done manually or automatically.
+The program asks for the user to input the number of the player that each role has been assigned to.
+	After the setup is complete, the game will cycle between the 2 game phases(night and day), after each
+phase conclusions are being presented and if the game is over, the game phases cease to cycle. In the night
+phase the user will be asked to input the choices of each player. In the day phase the user will input
+the eventual player that has been voted by the majority of the other players.
+
+Automatic assignment: The algorithm generates a pseudo-random(using the function clock) number that will be
+the index of the player which will be assigned each role. To make sure each role is assigned to a different
+player and also assure that the algorithm won't take forever in assigning the numbers - each iteration the
+number will be generated between 1 and number of unassigned players and only the unassigned players will be
+counted to see where the role will land.

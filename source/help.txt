@@ -1,0 +1,30 @@
+The storyteller helper is a tool that comes in aid to the storyteller player in
+a game of mafia.
+For clarifications about the gameplay search for the game on the internet.
+This version of the game consists of 5 different characters:
+TOWN: police officer, escort and doctor
+MAFIA: killer
+NEUTRAL: jester
+    The town's purpose is to find all members of the mafia and hang them during
+the day phase.
+    The mafia wins when their number of players is half or more of the number of
+living players.
+    The neutrals have their own purposes and they usually win separately from the
+other players.
+    The police officer investigates a player every night in search of the mafia.
+If the selected player is a member of the mafia, the storyteller will give the
+officer a thumbs-up. Otherwise, the officer will receive a thumbs-down.
+    The escort will divert a player each night from doing their task. When a
+player has been visited by the escort, they will still be able to choose a
+target, but their skill will have no effect in that night. In case of the police
+officer, when they choose a target, the storyteller will have to act like they
+don't know the answer, for example by giving them a shrug.
+    The doctor will heal a player each night. If the visited player has been
+injured in that night, then the doctor will cancel the effect of that injury. In
+this version of the game the number of heals the doctor can use upon himself has
+been reduced to 0.
+    The killer inflicts fatal injuries to players each night. If the mortally
+injured player isn't visited by the doctor in that night, the next day the
+player will die.
+    The jester has no special ability, his only purpose is to be hanged during
+the day phase. If that happens, the jester wins on his own.
