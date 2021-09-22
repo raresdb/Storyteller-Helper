@@ -16,9 +16,3 @@ The program asks for the user to input the number of the player that each role h
 phase conclusions are being presented and if the game is over, the game phases cease to cycle. In the night
 phase the user will be asked to input the choices of each player. In the day phase the user will input
 the eventual player that has been voted by the majority of the other players.
-
-Automatic assignment: The algorithm generates a pseudo-random(using the function clock) number that will be
-the index of the player which will be assigned each role. To make sure each role is assigned to a different
-player and also assure that the algorithm won't take forever in assigning the numbers - each iteration the
-number will be generated between 1 and number of unassigned players and only the unassigned players will be
-counted to see where the role will land.
