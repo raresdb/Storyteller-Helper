@@ -1,6 +1,9 @@
+                           ---->ABOUT THE TOOL<----
 The storyteller helper is a tool that comes in aid to the storyteller player in
-a game of mafia.
-For clarifications about the gameplay search for the game on the internet.
+a game of mafia. For clarifications about the gameplay of mafia search for the
+game on the internet.
+
+                          ---->VERSION OF THE GAME<----
 This version of the game consists of 5 different characters:
 TOWN: police officer, escort and doctor
 MAFIA: killer
@@ -28,3 +31,20 @@ injured player isn't visited by the doctor in that night, the next day the
 player will die.
     The jester has no special ability, his only purpose is to be hanged during
 the day phase. If that happens, the jester wins on his own.
+
+                        ---->HOW TO USE THE TOOL<----
+    ALL INPUTS ARE TO BE NUMBERS INTRODUCED FROM KEYBOARD FOLLOWED BY ENTER KEY.
+    Before beginning, assign each player a number that will represent them during the
+whole game.
+    You can choose whether to assign roles manually or automatically. Either way, you
+will have to make sure that each player only knows which their role is. The method
+that you will be using to notify the players is at your choice.
+    In the night phase introduce each player's choice after waking them up. You may
+choose whether to wake up players like the jester or dead players, but normally,
+dead players should be woken up too, so that the rest of the players left alive will
+NOT know which characters are still in the game.
+    In the day phase, you will have to organise the proposals and prosecutions of
+the living players. If there will be a player that gets more than half of the votes
+and gets more votes than other players, the number of the condemned player will be
+introduced. Otherwise, you may introduce anything else other than a number associated
+with a living player.

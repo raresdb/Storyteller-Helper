@@ -13,6 +13,7 @@ void setup(character* ch_list[6], character* p_list[6])
     int number;
     string input;
 
+	cout<<"ALL INPUTS ARE TO BE NUMBERS INTRODUCED FROM KEYBOARD FOLLOWED BY ENTER KEY\n\n\n";
 	cout<<"How are the players going to be assigned their roles, manually(1) or automatically(2): ";
 
     do
@@ -115,6 +116,8 @@ void night_phase (character* ch_list[6], character* p_list[6], int &on)
     int pick;
     string input;
 
+	cout<<"ALL INPUTS ARE TO BE NUMBERS INTRODUCED FROM KEYBOARD FOLLOWED BY ENTER KEY\n\n\n";
+
     for(int i = 1; i < 6; i++)
     {
         cout<<"player "<<i<<"("<<p_list[i]->check_role()<<")->";
@@ -210,6 +213,8 @@ void day_phase(character* ch_list[6], character* p_list[6], int &on)
     int pick;
     string input;
 
+	cout<<"ALL INPUTS ARE TO BE NUMBERS INTRODUCED FROM KEYBOARD FOLLOWED BY ENTER KEY\n\n\n";
+
     for(int i = 1; i < 6; i++)
     {
         cout<<"player "<<i<<"("<<p_list[i]->check_role()<<")->";
@@ -239,7 +244,7 @@ void day_phase(character* ch_list[6], character* p_list[6], int &on)
 
     cout<<"The rest of the players left alive will decide who to condemn to death by trial.";
     cout<<"If the consensus is reached, introduce the number of the condemned player.";
-    cout<<"Otherwise, introduce a number that is not associated with any living player: ";
+    cout<<"Otherwise, introduce anything other than the number of a living player: ";
     getline(cin, input);
     cout<<endl;
 
@@ -293,7 +298,8 @@ int main()
 {
     string input;
     do
-    {
+    {	
+		cout<<"ALL INPUTS ARE TO BE NUMBERS INTRODUCED FROM KEYBOARD FOLLOWED BY ENTER KEY\n\n\n";
         cout<<"Welcome to the storyteller helper!\n";
         cout<<"\tMENU\n";
         cout<<"   Start game(1)\n      Help(2)\n    Exit(other)\n";
@@ -335,7 +341,7 @@ int main()
         }
         else if(!input.compare("2"))
         {
-            ifstream f("help.txt");
+            ifstream f("tool text files/help.txt");
             string line;
 
             while(getline(f, line))
